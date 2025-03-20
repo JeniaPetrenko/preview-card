@@ -35,12 +35,11 @@ img.card {
     border-radius: 0.625rem;
 }
 
-/* Додано відступ між елементами */
 .content {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem; /* Відстань між елементами */
-    margin-top: 1rem; /* Відступ між картинкою та текстом */
+    gap: 0.75rem; 
+    margin-top: 1rem; 
 }
 
 button {
@@ -53,10 +52,10 @@ button {
     border: none;
     border-radius: 0.325rem;
     cursor: pointer;
-    margin-bottom: 0.5rem; /* Відступ між кнопкою та датою */
+    margin-bottom: 0.5rem; 
 }
 
-/* Відступ між датою і кнопкою */
+
 time {
     font-size: 0.875rem;
     color: var(--dark);
@@ -79,16 +78,16 @@ p {
     font-weight: 500;
 }
 
-/* Додано відступ між аватаром і ім'ям */
+
 .author-info {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* Відступ між аватаром і ім'ям */
+    gap: 0.5rem; 
     font-size: 0.875rem;
     color: var(--gray);
 }
 
-/* Аватар більше не має position: fixed */
+
 img.avatar {
     width: 2.5rem;
     height: 2.5rem;
